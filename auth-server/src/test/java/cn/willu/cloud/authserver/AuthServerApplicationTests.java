@@ -12,5 +12,4 @@ public class AuthServerApplicationTests {
     @Test
     public void contextLoads() {
     }
-
 }

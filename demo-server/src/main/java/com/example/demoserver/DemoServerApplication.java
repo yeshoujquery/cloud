@@ -1,12 +1,12 @@
-package cn.willu.cloud.configserver;
+package com.example.demoserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ConfigServerApplication {
+public class DemoServerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ConfigServerApplication.class, args);
+        SpringApplication.run(DemoServerApplication.class, args);
     }
 }
