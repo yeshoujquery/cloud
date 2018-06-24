@@ -9,13 +9,6 @@
     <version>0.0.2-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <parent>
-        <groupId>com.xyframework</groupId>
-        <artifactId>xyframework-starter-parent</artifactId>
-        <version>1.0.2</version>
-        <relativePath/>
-    </parent>
-
     <modules>
         <module>auth-server</module>
         <module>config-client</module>
