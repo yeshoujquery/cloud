@@ -12,10 +12,17 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
     @Value("${from}")
     private String from;
+    @Value("${to}")
+    private String to;
 
     @GetMapping("/from")
     public String getFrom(){
         return this.from;
+    }
+
+    @GetMapping("/to")
+    public String getTo(){
+        return this.to;
     }
 
 }
