@@ -26,6 +26,7 @@
         <module>monitor-server</module>
         <module>zipkin-server</module>
         <module>zuul-server</module>
+        <module>rabbitmq-hello</module>
     </modules>
 
 </project>
