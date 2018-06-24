@@ -6,7 +6,7 @@
 
     <groupId>cn.willu</groupId>
     <artifactId>cloud</artifactId>
-    <version>1.4</version>
+    <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <parent>
@@ -18,8 +18,9 @@
 
     <modules>
         <module>auth-server</module>
-        <module>config-server</module>
         <module>config-client</module>
+        <module>config-repo</module>
+        <module>config-server</module>
         <module>discovery-server</module>
         <module>log-server</module>
         <module>monitor-server</module>
